@@ -6,12 +6,16 @@
 //     console.log(Math.pow(2,i));
 //     i++
 // }
-let greeting = "Welcome";
-let name;
-
-do{
-    name = prompt("Enter your name pls:");
-
-} while(!isNaN(Number(name)))
-// alert(greeting+' '+name+'!')
-alert(`Hello ${name}`);
+// let greeting = "Welcome";
+// let name;
+// do{
+//     name = prompt("Enter your name pls:");
+// } while(!isNaN(Number(name)))
+// // alert(greeting+' '+name+'!')
+// alert(`Hello ${name}`);
+let fruits = ['Apple','Banana']
+fruits.push('Orange')
+fruits.unshift('Mango')
+for (let item of fruits){
+    console.log(item)
+}
